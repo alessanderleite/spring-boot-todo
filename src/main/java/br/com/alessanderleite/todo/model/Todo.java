@@ -28,7 +28,7 @@ public class Todo {
 		super();
 	}
  
-	public Todo(String userName, String description, Date targetDate) {
+	public Todo(String userName, String description, Date targetDate, boolean isDone) {
 		super();
 		this.userName = userName;
 		this.description = description;
